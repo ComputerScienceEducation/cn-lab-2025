@@ -37,3 +37,8 @@ To run the server your chat client will connect to, execute in a different termi
 ```
 
 If any errors occur, ensure that you first executed the [setup](#setup) step.
+
+# Uploading to CodeGrade
+
+Execute `python3 export.py a1` (or replace `a1` with the correct assignment) to create a zip archive.
+Then, upload it to CodeGrade.

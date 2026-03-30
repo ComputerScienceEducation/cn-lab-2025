@@ -36,7 +36,7 @@ def main() -> None:
             for file in files:
                 if ".pyc" in file or "__pycache__" in root: continue
                 file_path = os.path.join(root, file)
-                zipf.write(file_path, os.path.relpath(file_path, assignment_dir))
+                zipf.write(file_path, os.path.relpath(file_path))
 
 
 if __name__ == "__main__":
