@@ -33,7 +33,11 @@ python3 -m a8_game
 To run the server your chat client will connect to, execute in a different terminal:
 
 ```bash
-(cd infrastructure; python3 -m reliable_server)
+# First, install the server (one time only)
+~/.local/bin/uv pip install https://compnet2526.atlarge-research.com/pip/framework-0.1.0-py3-none-any.whl
+
+# Run the server
+reliable-server
 ```
 
 If any errors occur, ensure that you first executed the [setup](#setup) step.
